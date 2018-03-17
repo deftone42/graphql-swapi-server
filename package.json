@@ -1,0 +1,25 @@
+{
+  "name": "graphql-swapi-server",
+  "version": "1.0.0",
+  "description": "GraphQL + Swapi server app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deftone42/graphql-swapi-server.git"
+  },
+  "author": "Eder Bodelon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deftone42/graphql-swapi-server/issues"
+  },
+  "homepage": "https://github.com/deftone42/graphql-swapi-server#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "graphql-relay": "^0.5.4"
+  }
+}
