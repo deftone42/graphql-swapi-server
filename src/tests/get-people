@@ -1,0 +1,8 @@
+query GetPeople($search) {
+  people(search: $search) {
+    count
+    results {
+      name
+    }
+  }
+}
